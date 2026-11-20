@@ -2,7 +2,7 @@
 
 REST API for Doctor Tracker, built with Node.js, Express and MongoDB (Mongoose). Frontend repository: `doctor-tracker-frontend`.
 
-- Live API: `<add your Render URL>` (health check: `/api/health`)
+- Live API: `<https://doctor-tracker-backend-6dgz.onrender.com>` (health check: `/api/health`)
 - Demo login: `demo@doctortracker.com` / `Demo@12345`
 
 ## Description
@@ -24,7 +24,7 @@ Edit `.env` (see `.env.example`):
 
 | Variable | Description |
 |---|---|
-| `PORT` | Port to listen on (default 5000) |
+| `PORT` | Port to listen on (default 5001) |
 | `MONGODB_URI` | MongoDB connection string, including a database name such as `/doctor-tracker` |
 | `JWT_SECRET` | Long random string used to sign tokens |
 | `JWT_EXPIRES_IN` | Token lifetime, for example `7d` |
@@ -36,7 +36,7 @@ Run it:
 
 ```bash
 npm run seed    # optional: demo admin + 12 doctors + 90 patients
-npm run dev     # http://localhost:5000
+npm run dev     # http://localhost:5001
 npm start       # production
 ```
 
